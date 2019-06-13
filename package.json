@@ -1,0 +1,29 @@
+{
+  "name": "@gatewayapps/cradle-typescript-emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublishOnly": "yarn tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatewayapps/cradle-typescript-emitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatewayapps/cradle-typescript-emitter/issues"
+  },
+  "homepage": "https://github.com/gatewayapps/cradle-typescript-emitter#readme",
+  "dependencies": {
+    "@gatewayapps/cradle": "^1.0.0-alpha.8",
+    "@gatewayapps/cradle-file-emitter": "^1.0.0-alpha.3",
+    "@types/node": "^12.0.8",
+    "ts-morph": "^2.3.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

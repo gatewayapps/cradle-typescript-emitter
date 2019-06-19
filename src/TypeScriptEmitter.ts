@@ -68,12 +68,6 @@ export class TypeScriptEmitter extends FileEmitter {
     propNames.forEach((propName) => {
       const prop: PropertyType = model.Properties[propName]
       let leadingTrivia: string = ''
-      if (prop.DefaultValue !== undefined) {
-        leadingTrivia = `/**
-* @default - ${prop.DefaultValue}
-*/
-`
-      }
 
       properties.push({
         name: propName,

@@ -1,6 +1,6 @@
 {
   "name": "@gatewayapps/cradle-typescript-emitter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/gatewayapps/cradle-typescript-emitter#readme",
   "dependencies": {
     "@gatewayapps/cradle": "^1.0.0-alpha.9",
-    "@gatewayapps/cradle-file-emitter": "^1.0.0-alpha.5",
+    "@gatewayapps/cradle-file-emitter": "^1.0.0-alpha.6",
     "@types/node": "^12.0.8",
     "ts-morph": "^2.3.0",
     "typescript": "^3.5.2"

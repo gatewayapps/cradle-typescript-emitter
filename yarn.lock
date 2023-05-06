@@ -10,19 +10,19 @@
     is-absolute "^1.0.0"
     is-negated-glob "^1.0.0"
 
-"@gatewayapps/cradle-file-emitter@^1.0.0-alpha.3":
-  version "1.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@gatewayapps/cradle-file-emitter/-/cradle-file-emitter-1.0.0-alpha.3.tgz#b629217aa3087ff082d8829869fdfc667c647ddd"
-  integrity sha512-KjDXH84GW7mrJeOXO5RB6KbWAGIeunwNLrqA9Y6gfO1+J2RtSBd3okc56sVGBcxE4My6Qiv9t9fTFDVcoihgGg==
+"@gatewayapps/cradle-file-emitter@^1.0.0-alpha.6":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@gatewayapps/cradle-file-emitter/-/cradle-file-emitter-1.0.1.tgz#29ec22d18d26d08d7b8fd2e4ccfcfa0b7a68be81"
+  integrity sha512-3Vr11bqMkGVZhcj/jEQmLy+IQt2RvmSUW6601f8msHN1gQj/TBKAMoEfRdFslVaAGnCZLUSB2OJZZnuxL+XwCg==
   dependencies:
-    "@gatewayapps/cradle" "^1.0.0-alpha.7"
+    "@gatewayapps/cradle" "^1.0.0-alpha.5"
     fs-extra "^8.0.1"
     prettier "^1.18.2"
 
-"@gatewayapps/cradle@^1.0.0-alpha.7", "@gatewayapps/cradle@^1.0.0-alpha.8":
-  version "1.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@gatewayapps/cradle/-/cradle-1.0.0-alpha.8.tgz#208e835a3df52cf9c69c0b5a69c29d29878d5499"
-  integrity sha512-yilJxsYs183s/aQXZkytAUr8Ifg9ntj/wzDrOVCCaVxGbnhj5/xoFeg6gvMEjuXyCgeG7VkqXFX+4oL9L9XMMw==
+"@gatewayapps/cradle@^1.0.0-alpha.5", "@gatewayapps/cradle@^1.0.0-alpha.9":
+  version "1.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/@gatewayapps/cradle/-/cradle-1.0.0-alpha.10.tgz#e185fc2e1caadffb2cdec74da635fac3827712ac"
+  integrity sha512-sJxtJ7hzmICw9tBaevReknXGXIMLodWhAUIZhrIgMKAeBmm9MP/yoZv/6Lx2uhWHBLGTFM7VUDP/f/vVIJ2SHQ==
   dependencies:
     chevrotain "^3.7.4"
     colors "^1.3.2"
@@ -829,9 +829,9 @@ mimic-fn@^2.0.0:
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
 minimatch@^3.0.0, minimatch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
-  integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 
